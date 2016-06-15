@@ -14,7 +14,7 @@ public class LogonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_logon);
         FacebookSdk.sdkInitialize(getApplicationContext());
-
+//
         //Remove title bar
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
